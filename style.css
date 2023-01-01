@@ -1,0 +1,54 @@
+body{
+
+background-image: url(./pexels-monstera-7412098.jpg);
+background-size: cover;
+
+
+background-repeat: no-repeat;
+z-index: -1;
+
+background-attachment: fixed;
+background-position: center;
+
+
+}
+
+.modal-body {
+    
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    
+    /* overflow: hidden; */
+}
+
+.modal-body div  {
+    gap: 20px;
+    width: 300px;
+    flex-wrap: wrap;
+    overflow: hidden;
+    display: flex;
+    
+}
+
+
+.modal-content{
+
+    background-image: url(./pexels-pixabay-462119.jpg);
+    border: none;
+
+
+
+}
+
+
+.card{
+    height: auto;
+    border: none;
+    border-radius: 15px;
+    
+}
+.card-header{
+    border-radius: 15px;
+
+}
